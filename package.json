@@ -1,0 +1,10 @@
+{
+  "devDependencies": {
+    "vitest": "^3.0.8"
+  },
+  "scripts": {
+    "test": "vitest --run --reporter verbose",
+    "test:watch": "vitest",
+    "start": "http-server -c-1"
+  }
+}
