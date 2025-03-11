@@ -1,4 +1,4 @@
-import { it, expect, describe, each } from 'vitest';
+import { it, expect, describe } from 'vitest';
 import { capitalizeWords } from '../../../src/stringUtils';
 
 
