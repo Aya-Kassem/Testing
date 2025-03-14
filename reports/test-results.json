@@ -1,0 +1,427 @@
+{
+  "numTotalTestSuites": 10,
+  "numPassedTestSuites": 10,
+  "numFailedTestSuites": 0,
+  "numPendingTestSuites": 0,
+  "numTotalTests": 39,
+  "numPassedTests": 39,
+  "numFailedTests": 0,
+  "numPendingTests": 0,
+  "numTodoTests": 0,
+  "snapshot": {
+    "added": 0,
+    "failure": false,
+    "filesAdded": 0,
+    "filesRemoved": 0,
+    "filesRemovedList": [],
+    "filesUnmatched": 0,
+    "filesUpdated": 0,
+    "matched": 0,
+    "total": 0,
+    "unchecked": 0,
+    "uncheckedKeysByFile": [],
+    "unmatched": 0,
+    "updated": 0,
+    "didUpdate": false
+  },
+  "startTime": 1741962034530,
+  "success": true,
+  "testResults": [
+    {
+      "assertionResults": [
+        {
+          "ancestorTitles": ["discountCalculator()"],
+          "fullName": "discountCalculator() should return 0 if total < 0 regardless of membership",
+          "status": "passed",
+          "title": "should return 0 if total < 0 regardless of membership",
+          "duration": 3.0477000027894974,
+          "failureMessages": [],
+          "meta": {}
+        },
+        {
+          "ancestorTitles": ["discountCalculator()"],
+          "fullName": "discountCalculator() should return 0 if total < 0 regardless of membership",
+          "status": "passed",
+          "title": "should return 0 if total < 0 regardless of membership",
+          "duration": 0.3081999868154526,
+          "failureMessages": [],
+          "meta": {}
+        },
+        {
+          "ancestorTitles": ["discountCalculator()"],
+          "fullName": "discountCalculator() should return calculated discount for members (total * 0.2) if isMember flag is provided",
+          "status": "passed",
+          "title": "should return calculated discount for members (total * 0.2) if isMember flag is provided",
+          "duration": 0.3287000060081482,
+          "failureMessages": [],
+          "meta": {}
+        },
+        {
+          "ancestorTitles": ["discountCalculator()"],
+          "fullName": "discountCalculator() should return calculated discount for non members (total * 0.1) if isMember flag is not provided or false",
+          "status": "passed",
+          "title": "should return calculated discount for non members (total * 0.1) if isMember flag is not provided or false",
+          "duration": 1.6973000019788742,
+          "failureMessages": [],
+          "meta": {}
+        },
+        {
+          "ancestorTitles": ["discountCalculator()"],
+          "fullName": "discountCalculator() should return 0 if total is 0 regardless of membership",
+          "status": "passed",
+          "title": "should return 0 if total is 0 regardless of membership",
+          "duration": 0.5798999965190887,
+          "failureMessages": [],
+          "meta": {}
+        },
+        {
+          "ancestorTitles": ["discountCalculator()"],
+          "fullName": "discountCalculator() should return 0 if total is 0 regardless of membership",
+          "status": "passed",
+          "title": "should return 0 if total is 0 regardless of membership",
+          "duration": 0.2387000024318695,
+          "failureMessages": [],
+          "meta": {}
+        },
+        {
+          "ancestorTitles": ["discountCalculator()"],
+          "fullName": "discountCalculator() should work as expected if total is numeric string",
+          "status": "passed",
+          "title": "should work as expected if total is numeric string",
+          "duration": 0.28039999306201935,
+          "failureMessages": [],
+          "meta": {}
+        },
+        {
+          "ancestorTitles": ["discountCalculator()"],
+          "fullName": "discountCalculator() should work as expected if total is numeric string",
+          "status": "passed",
+          "title": "should work as expected if total is numeric string",
+          "duration": 0.19599999487400055,
+          "failureMessages": [],
+          "meta": {}
+        },
+        {
+          "ancestorTitles": ["discountCalculator()"],
+          "fullName": "discountCalculator() should return 0 if total is falsy regardless of membership",
+          "status": "passed",
+          "title": "should return 0 if total is falsy regardless of membership",
+          "duration": 0.8769000023603439,
+          "failureMessages": [],
+          "meta": {}
+        },
+        {
+          "ancestorTitles": ["discountCalculator()"],
+          "fullName": "discountCalculator() should return 0 if total is falsy regardless of membership",
+          "status": "passed",
+          "title": "should return 0 if total is falsy regardless of membership",
+          "duration": 2.0729999989271164,
+          "failureMessages": [],
+          "meta": {}
+        },
+        {
+          "ancestorTitles": ["discountCalculator()"],
+          "fullName": "discountCalculator() should yield NaN if the total is undefined or empty object regardless of membership",
+          "status": "passed",
+          "title": "should yield NaN if the total is undefined or empty object regardless of membership",
+          "duration": 0.3666999936103821,
+          "failureMessages": [],
+          "meta": {}
+        },
+        {
+          "ancestorTitles": ["discountCalculator()"],
+          "fullName": "discountCalculator() should yield NaN if the total is undefined or empty object regardless of membership",
+          "status": "passed",
+          "title": "should yield NaN if the total is undefined or empty object regardless of membership",
+          "duration": 0.19439999759197235,
+          "failureMessages": [],
+          "meta": {}
+        }
+      ],
+      "startTime": 1741962035291,
+      "endTime": 1741962035302.3667,
+      "status": "passed",
+      "message": "",
+      "name": "D:/Study/Testing/tests/unit/discountCalculator/discountCalculator.test.js"
+    },
+    {
+      "assertionResults": [
+        {
+          "ancestorTitles": ["filterAdults()"],
+          "fullName": "filterAdults() should filter people with age >= 18",
+          "status": "passed",
+          "title": "should filter people with age >= 18",
+          "duration": 4.152900010347366,
+          "failureMessages": [],
+          "meta": {}
+        },
+        {
+          "ancestorTitles": ["filterAdults()"],
+          "fullName": "filterAdults() should return an empty array if no age property found",
+          "status": "passed",
+          "title": "should return an empty array if no age property found",
+          "duration": 0.4505999982357025,
+          "failureMessages": [],
+          "meta": {}
+        },
+        {
+          "ancestorTitles": ["filterAdults()"],
+          "fullName": "filterAdults() should return an empty array for an empty input",
+          "status": "passed",
+          "title": "should return an empty array for an empty input",
+          "duration": 0.5392000079154968,
+          "failureMessages": [],
+          "meta": {}
+        },
+        {
+          "ancestorTitles": ["filterAdults()"],
+          "fullName": "filterAdults() should return an empty array if no person found with age >= 18",
+          "status": "passed",
+          "title": "should return an empty array if no person found with age >= 18",
+          "duration": 0.9804999977350235,
+          "failureMessages": [],
+          "meta": {}
+        },
+        {
+          "ancestorTitles": ["filterAdults()"],
+          "fullName": "filterAdults() should handle non-object array elements",
+          "status": "passed",
+          "title": "should handle non-object array elements",
+          "duration": 0.6239999979734421,
+          "failureMessages": [],
+          "meta": {}
+        },
+        {
+          "ancestorTitles": ["filterAdults()"],
+          "fullName": "filterAdults() should filter correctly for mixed types input",
+          "status": "passed",
+          "title": "should filter correctly for mixed types input",
+          "duration": 0.45799998939037323,
+          "failureMessages": [],
+          "meta": {}
+        },
+        {
+          "ancestorTitles": ["filterAdults()"],
+          "fullName": "filterAdults() should throw an error if the argument is not an array",
+          "status": "passed",
+          "title": "should throw an error if the argument is not an array",
+          "duration": 1.9285999983549118,
+          "failureMessages": [],
+          "meta": {}
+        },
+        {
+          "ancestorTitles": ["filterAdults()"],
+          "fullName": "filterAdults() should throw an error if no argument provided",
+          "status": "passed",
+          "title": "should throw an error if no argument provided",
+          "duration": 0.6253000050783157,
+          "failureMessages": [],
+          "meta": {}
+        }
+      ],
+      "startTime": 1741962035295,
+      "endTime": 1741962035305.6252,
+      "status": "passed",
+      "message": "",
+      "name": "D:/Study/Testing/tests/unit/array/arrayUtils.test.js"
+    },
+    {
+      "assertionResults": [
+        {
+          "ancestorTitles": ["add()"],
+          "fullName": "add() should return the sum of two numbers provided",
+          "status": "passed",
+          "title": "should return the sum of two numbers provided",
+          "duration": 2.0004999935626984,
+          "failureMessages": [],
+          "meta": {}
+        },
+        {
+          "ancestorTitles": ["add()"],
+          "fullName": "add() should yield NaN if one argument is provided",
+          "status": "passed",
+          "title": "should yield NaN if one argument is provided",
+          "duration": 0.2627999931573868,
+          "failureMessages": [],
+          "meta": {}
+        },
+        {
+          "ancestorTitles": ["add()"],
+          "fullName": "add() should yield NaN if no arguments are provided",
+          "status": "passed",
+          "title": "should yield NaN if no arguments are provided",
+          "duration": 0.23579999804496765,
+          "failureMessages": [],
+          "meta": {}
+        },
+        {
+          "ancestorTitles": ["add()"],
+          "fullName": "add() should the correct sum if the arguments are decimals",
+          "status": "passed",
+          "title": "should the correct sum if the arguments are decimals",
+          "duration": 0.4537999927997589,
+          "failureMessages": [],
+          "meta": {}
+        },
+        {
+          "ancestorTitles": ["add()"],
+          "fullName": "add() should returm the sum if string numeric values provided",
+          "status": "passed",
+          "title": "should returm the sum if string numeric values provided",
+          "duration": 0.3449000120162964,
+          "failureMessages": [],
+          "meta": {}
+        }
+      ],
+      "startTime": 1741962035912,
+      "endTime": 1741962035915.4539,
+      "status": "passed",
+      "message": "",
+      "name": "D:/Study/Testing/tests/unit/math/mathUtils.test.js"
+    },
+    {
+      "assertionResults": [
+        {
+          "ancestorTitles": ["updateUser()"],
+          "fullName": "updateUser() should take two objects and combine them in one object and return that object",
+          "status": "passed",
+          "title": "should take two objects and combine them in one object and return that object",
+          "duration": 3.894999995827675,
+          "failureMessages": [],
+          "meta": {}
+        },
+        {
+          "ancestorTitles": ["updateUser()"],
+          "fullName": "updateUser() should throw if any of the inputs was not an object",
+          "status": "passed",
+          "title": "should throw if any of the inputs was not an object",
+          "duration": 2.1744000017642975,
+          "failureMessages": [],
+          "meta": {}
+        },
+        {
+          "ancestorTitles": ["updateUser()"],
+          "fullName": "updateUser() should throw if any of the inputs was not an object",
+          "status": "passed",
+          "title": "should throw if any of the inputs was not an object",
+          "duration": 0.7714000046253204,
+          "failureMessages": [],
+          "meta": {}
+        },
+        {
+          "ancestorTitles": ["updateUser()"],
+          "fullName": "updateUser() should throw if any of the inputs was not an object",
+          "status": "passed",
+          "title": "should throw if any of the inputs was not an object",
+          "duration": 1.7268000096082687,
+          "failureMessages": [],
+          "meta": {}
+        },
+        {
+          "ancestorTitles": ["updateUser()"],
+          "fullName": "updateUser() should throw if any of the inputs was not an object",
+          "status": "passed",
+          "title": "should throw if any of the inputs was not an object",
+          "duration": 1.2761000096797943,
+          "failureMessages": [],
+          "meta": {}
+        },
+        {
+          "ancestorTitles": ["updateUser()"],
+          "fullName": "updateUser() should return retsult if only one object provided",
+          "status": "passed",
+          "title": "should return retsult if only one object provided",
+          "duration": 0.4056999981403351,
+          "failureMessages": [],
+          "meta": {}
+        },
+        {
+          "ancestorTitles": ["updateUser()"],
+          "fullName": "updateUser() should not duplicate any shared values between the two input objcects",
+          "status": "passed",
+          "title": "should not duplicate any shared values between the two input objcects",
+          "duration": 0.42980000376701355,
+          "failureMessages": [],
+          "meta": {}
+        }
+      ],
+      "startTime": 1741962035290,
+      "endTime": 1741962035301.4297,
+      "status": "passed",
+      "message": "",
+      "name": "D:/Study/Testing/tests/unit/object-manipulation/userUtils.test.js"
+    },
+    {
+      "assertionResults": [
+        {
+          "ancestorTitles": ["capitalizeWords()"],
+          "fullName": "capitalizeWords() should return the string with first letter of each word capitalized",
+          "status": "passed",
+          "title": "should return the string with first letter of each word capitalized",
+          "duration": 2.0005000084638596,
+          "failureMessages": [],
+          "meta": {}
+        },
+        {
+          "ancestorTitles": ["capitalizeWords()"],
+          "fullName": "capitalizeWords() should lowercase all letters if capital letters are provided",
+          "status": "passed",
+          "title": "should lowercase all letters if capital letters are provided",
+          "duration": 0.2578999996185303,
+          "failureMessages": [],
+          "meta": {}
+        },
+        {
+          "ancestorTitles": ["capitalizeWords()"],
+          "fullName": "capitalizeWords() should return an empty string if no argument is provided. or the argument is empty string",
+          "status": "passed",
+          "title": "should return an empty string if no argument is provided. or the argument is empty string",
+          "duration": 0.6421999931335449,
+          "failureMessages": [],
+          "meta": {}
+        },
+        {
+          "ancestorTitles": ["capitalizeWords()"],
+          "fullName": "capitalizeWords() should return an empty string for non-string input 2",
+          "status": "passed",
+          "title": "should return an empty string for non-string input 2",
+          "duration": 0.44109998643398285,
+          "failureMessages": [],
+          "meta": {}
+        },
+        {
+          "ancestorTitles": ["capitalizeWords()"],
+          "fullName": "capitalizeWords() should return an empty string for non-string input null",
+          "status": "passed",
+          "title": "should return an empty string for non-string input null",
+          "duration": 0.6666000038385391,
+          "failureMessages": [],
+          "meta": {}
+        },
+        {
+          "ancestorTitles": ["capitalizeWords()"],
+          "fullName": "capitalizeWords() should return an empty string for non-string input {}",
+          "status": "passed",
+          "title": "should return an empty string for non-string input {}",
+          "duration": 0.6911999881267548,
+          "failureMessages": [],
+          "meta": {}
+        },
+        {
+          "ancestorTitles": ["capitalizeWords()"],
+          "fullName": "capitalizeWords() should return an empty string for non-string input []",
+          "status": "passed",
+          "title": "should return an empty string for non-string input []",
+          "duration": 0.2751999944448471,
+          "failureMessages": [],
+          "meta": {}
+        }
+      ],
+      "startTime": 1741962035913,
+      "endTime": 1741962035919.2751,
+      "status": "passed",
+      "message": "",
+      "name": "D:/Study/Testing/tests/unit/strings/stringUtils.test.js"
+    }
+  ]
+}

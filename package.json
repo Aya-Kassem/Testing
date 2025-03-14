@@ -4,6 +4,7 @@
   },
   "scripts": {
     "test": "vitest --run --reporter verbose",
+    "test:json": "vitest run --reporter default --reporter json --outputFile=./reports/test-results.json",
     "test:watch": "vitest",
     "start": "http-server -c-1"
   }
