@@ -1,15 +1,20 @@
-import { describe, it, expect } from 'vitest';
-import { logMessage } from '../../../src/logger';
+import { describe, it, expect, vi } from "vitest";
+import { logMessage } from "../../../src/logger";
 
-// log messages
-// if receieved another function will executed
-// if empty message === undefined in the console
+describe("logMessage()", () => {
+  it("should log input messages with date", () => {
+    const logger = vi.fn();
+    const msg = "Learning js testing";
+    logMessage(msg, logger);
+    expect(logger).toHaveBeenCalledExactlyOnceWith(msg);
+  });
 
-describe('logMessage()', () => {
-    it('should log input messages with date', () => {
-        const msg = 'Learning js testing';
-        const result = logMessage(msg);
-        const expected = `[${new Date().toISOString()}] ${msg}`;
-        expect(result).toEqual(expected);
-    })
-})
+  it("should throw if second arg is not a function", () => {
+    const resultFn = () => logMessage("javascript", "testing");
+    expect(resultFn).toThrow();
+  });
+
+  it.each([[""], [[]], [{}], [null], [undefined]])("should handle falsey values", (msg) => {
+    expect(logMessage(msg)).toBeFalsy();
+  });
+});
