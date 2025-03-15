@@ -1,9 +1,12 @@
 {
   "devDependencies": {
+    "@vitest/coverage-v8": "^3.0.8",
     "vitest": "^3.0.8"
   },
   "scripts": {
     "test": "vitest --run --reporter verbose",
+    "test:json": "vitest run --reporter default --reporter json --outputFile=./reports/test-results.json",
+    "coverage": "vitest run --coverage",
     "test:watch": "vitest",
     "start": "http-server -c-1"
   }
